@@ -25,12 +25,12 @@ $(function() {
   var topoffset = 43; //variable for scrolling effects
 
   var wheight = $( window ).height(); //get the height of the window
-  $('.fullheight').css('height', wheight-topoffset); //set to window tallness 
+  $('.fullheight').css('height', wheight); //set to window tallness 
 
   //adjust height of .fullheight elements on window resize
   $( window ).resize(function() {
     var wheight = $( window ).height();
-    $('.fullheight').css('height', wheight-topoffset); //set to windown tallness 
+    $('.fullheight').css('height', wheight); //set to windown tallness 
   });
 
   //Set up ScrollMagic
