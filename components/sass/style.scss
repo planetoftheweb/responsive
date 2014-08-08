@@ -5,13 +5,29 @@
 @import "compass";
 @import "compass/reset";
 @import "compass/css3/box-shadow";
- 
+@import "compass/css3/text-shadow";
+@import 'compass/css3/filter';
+@import "compass/css3/flexbox";
+@import "compass/css3/transition";
+
+//External Libraries
+@import "susy";
+@import "breakpoint";
+
 //Core partials
 @import "variables";
 @import "mixins";
 @import "base";
-@import "modules";
- 
-// JS partials
-@import "pixgrid";
-@import "rclick";
+@import "layout";
+
+// Import Modules
+
+@import "modules/intro";
+@import "modules/nav";
+@import "modules/welcome";
+@import "modules/events";
+@import "modules/dining";
+@import "modules/hotelinfo";
+@import "modules/rooms";
+@import "modules/attractions";
+@import "modules/footer";

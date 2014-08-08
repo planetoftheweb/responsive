@@ -1,0 +1,24 @@
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.scene {
+  position: relative;
+  padding: 20px 0;
+
+  article {
+    @include container(95%);
+  } //article
+
+  @include breakpoint($wide) {
+    padding: 40px 0;
+  } //wide
+
+  @include breakpoint($medium) {
+    article {
+      @include container;
+    } //article
+  } //medium
+} //scene

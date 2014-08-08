@@ -1,0 +1,56 @@
+#dining {
+  background: $light;
+
+  h1, h2 {
+    color: $red;
+    padding: 10px 0;
+  } //h1
+
+  img {
+    width: 100%;
+    margin: 0 auto;
+    @include border-radius(10px);
+  } //img
+
+  #roomservice {
+    margin-top:20px;
+    @include background-image(linear-gradient(top, $light, lighten($yellow, 35)));
+    @include pad(1,1);
+    text-align: center;
+    border-top: 1px solid $red;
+    border-bottom: 1px solid $red;
+  }
+
+
+
+  @include breakpoint($small) {
+    #areadining {
+      margin-bottom: 30px;
+        h1 {
+          font-weight: $thin;
+          font-size: 2.5em;
+        }
+        p {
+          font-size: 1.5em;
+          line-height: 140%;
+        }
+      } //area dining
+
+    section {
+      @include span(4 of 12);
+
+      h2 {
+        font-size: 1.2em;
+        line-height: 120%;
+        color: $pink;
+      }
+
+      p {
+        padding-top: 10px; 
+        font-size: 1em;
+        line-height: 130%;
+      } //p
+    } //section
+  } //breakpoint
+
+} //dining
