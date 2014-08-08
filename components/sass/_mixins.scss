@@ -1,34 +1,32 @@
 // _mixins
 // ========
-@mixin backImage($image) {
-  background: url($image) no-repeat 50% 20% ; 
+@mixin backImage(
+    $image,
+    $grDir: to bottom,
+    $opStart:0,
+    $opEnd:0,
+    $bgPos: center center
+  ) {
+  background:  linear-gradient(
+      $grDir,
+      rgba(0, 0, 0, $opStart),
+      rgba(0, 0, 0, $opEnd)
+    ), url($image);
+  background-repeat: no-repeat;
+  background-position: $bgPos;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
- 
-  -webkit-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
- 
-  @media (min-width: 801px) {
-   height: 350px;
-  }
- 
-  @media (max-width: 800px) {
-   height: 150px;
-  }
- 
-  @media (max-width: 300px) {
-   height: 100px;
-  }
 }
- 
+
 @mixin clearfix {
+  &:before,
   &:after {
     content: "";
     display: table;
+  }
+  &:after {
     clear: both;
   }
 }
