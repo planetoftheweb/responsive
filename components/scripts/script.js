@@ -1,13 +1,14 @@
 $(function() {
   var topoffset = 43; //variable for scrolling effects
-
+  var isTouch = 'ontouchstart' in document.documentElement;
   var wheight = $( window ).height(); //get the height of the window
+
   $('.fullheight').css('height', wheight); //set to window tallness 
 
   //adjust height of .fullheight elements on window resize
   $( window ).resize(function() {
     var wheight = $( window ).height();
-    $('.fullheight').css('height', wheight); //set to windown tallness 
+    $('.fullheight').css('height', wheight); //set to window tallness 
   });
 
   //Set up ScrollMagic
@@ -41,6 +42,7 @@ $(function() {
     ease: Back.easeOut
   };
 
+if (!isTouch) {
   var roomtween = TweenMax.staggerFromTo(
     "#piccadilly .content", 
     1, roomOrigin, roomDest );
@@ -118,6 +120,7 @@ $(function() {
   .addTo(controller);
   //pin rooms ---------------
 
+}
 
 
   //set up tween animation for attractions
