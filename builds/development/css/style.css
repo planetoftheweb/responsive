@@ -71,4 +71,42 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   box-sizing: border-box;
 }
 
+/* line 1, ../../../components/sass/_base.scss */
+body {
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+/* line 7, ../../../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font: 200 1.5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0e83a0;
+  font-weight: 600;
+}
+
+/* line 13, ../../../components/sass/_base.scss */
+strong {
+  font-weight: 600;
+}
+
+/* line 17, ../../../components/sass/_base.scss */
+p {
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+/* line 1, ../../../components/sass/_layout.scss */
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, ../../../components/sass/_layout.scss */
+.scene {
+  position: relative;
+  padding: 20px 0;
+}
+
 /*# sourceMappingURL=style.css.map */
