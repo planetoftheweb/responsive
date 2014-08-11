@@ -1,0 +1,1007 @@
+@import "http://fonts.googleapis.com/css?family=Exo+2:200,400,600,800";
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 14, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 3, ../../../components/sass/_base.scss */
+body {
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+/* line 9, ../../../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font: 200 1.5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0e83a0;
+  font-weight: 600;
+}
+
+/* line 15, ../../../components/sass/_base.scss */
+strong {
+  font-weight: 600;
+}
+
+/* line 19, ../../../components/sass/_base.scss */
+p {
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+/* line 1, ../../../components/sass/_layout.scss */
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, ../../../components/sass/_layout.scss */
+.scene {
+  position: relative;
+  padding: 20px 0;
+}
+/* line 11, ../../../components/sass/_layout.scss */
+.scene article {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+.scene article:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 1200px) {
+  /* line 7, ../../../components/sass/_layout.scss */
+  .scene {
+    padding: 40px 0;
+  }
+}
+@media (min-width: 960px) {
+  /* line 20, ../../../components/sass/_layout.scss */
+  .scene article {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  .scene article:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+/* line 2, ../../../components/sass/modules/_intro.scss */
+header .fullheight {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/splash_hotelphoto.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+/* line 8, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 100px 0;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+header .fullheight .hgroup:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 12, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup h1 {
+  color: white;
+  font-size: 5em;
+  font-weight: 800;
+  line-height: .8em;
+  text-shadow: #000000 0 0 20px;
+  text-transform: capitalize;
+  text-align: center;
+}
+/* line 23, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup h2 {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #FFFFFF;
+  z-index: 10;
+  margin-top: 15px;
+  font-size: 1.3em;
+  padding: 10px;
+  border: 1px solid #FFFFFF;
+  text-transform: capitalize;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+header .fullheight .hgroup h2:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 36, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup p {
+  text-align: center;
+}
+/* line 38, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup p img {
+  padding-top: 50px;
+  max-width: 50px;
+}
+
+/* line 1, ../../../components/sass/modules/_nav.scss */
+header #nav {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBhNWM3MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzA2MzY0MiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-linear-gradient(top, #0a5c71, #063642);
+  background-image: -webkit-linear-gradient(top, #0a5c71, #063642);
+  background-image: linear-gradient(to bottom, #0a5c71, #063642);
+  width: 100%;
+  z-index: 100;
+  position: relative;
+  bottom: 0;
+}
+/* line 8, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar {
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+header #nav .navbar:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 11, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar .brand {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  font-weight: 600;
+  font-family: 200 1.5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background: #DF4848;
+}
+/* line 18, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar .brand a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.5em;
+}
+@media (max-width: 650px) {
+  /* line 18, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar .brand a {
+    font-size: 1.2em;
+  }
+  /* line 27, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar .brand a span {
+    display: none;
+  }
+}
+/* line 32, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 66.66667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+/* line 34, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul li {
+  float: left;
+}
+/* line 36, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul li a {
+  color: #FFFFFF;
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  padding: 10px 10px 10px 45px;
+  display: inline-block;
+  background-size: 35px;
+  background-repeat: no-repeat;
+  background-position: 2px;
+  text-decoration: none;
+}
+/* line 47, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul li a.info {
+  background-image: url("../images/icons/info.png");
+}
+/* line 48, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul li a.rooms {
+  background-image: url("../images/icons/rooms.png");
+}
+/* line 49, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul li a.dining {
+  background-image: url("../images/icons/dining.png");
+}
+/* line 50, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul li a.events {
+  background-image: url("../images/icons/events.png");
+}
+/* line 51, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul li a.attractions {
+  background-image: url("../images/icons/attractions.png");
+}
+/* line 53, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul li a:hover {
+  background-color: #EFC94C;
+  color: #063642;
+}
+@media (min-width: 0) and (max-width: 650px) {
+  /* line 36, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar ul li a {
+    padding: 10px 18px;
+  }
+  /* line 60, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar ul li a::after {
+    content: '\0000a0';
+    display: block;
+  }
+  /* line 64, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar ul li a span {
+    display: none;
+  }
+}
+@media (min-width: 650px) and (max-width: 960px) {
+  /* line 36, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar ul li a {
+    padding-left: 10px;
+  }
+  /* line 71, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar ul li a.icon {
+    background-image: none;
+  }
+}
+/* line 74, ../../../components/sass/modules/_nav.scss */
+header #nav .navbar ul li a.active {
+  background-color: #DF4848;
+  color: #FFFFFF;
+}
+
+/* line 1, ../../../components/sass/modules/_welcome.scss */
+#welcome {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmYzk0YyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2UyN2EzZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-linear-gradient(top, #efc94c, #e27a3f);
+  background-image: -webkit-linear-gradient(top, #efc94c, #e27a3f);
+  background-image: linear-gradient(to bottom, #efc94c, #e27a3f);
+}
+/* line 4, ../../../components/sass/modules/_welcome.scss */
+#welcome article {
+  text-align: center;
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+#welcome article:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 650px) {
+  /* line 4, ../../../components/sass/modules/_welcome.scss */
+  #welcome article {
+    max-width: 33em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0;
+  }
+  /* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  #welcome article:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+/* line 13, ../../../components/sass/modules/_welcome.scss */
+#welcome article h1 {
+  font-weight: 400;
+  line-height: 100%;
+  text-align: center;
+  color: #a24a19;
+  padding: 10px 0;
+}
+/* line 21, ../../../components/sass/modules/_welcome.scss */
+#welcome article p {
+  color: #000000;
+}
+/* line 24, ../../../components/sass/_mixins.scss */
+#welcome article .gallery:before, #welcome article .gallery:after {
+  content: "";
+  display: table;
+}
+/* line 29, ../../../components/sass/_mixins.scss */
+#welcome article .gallery:after {
+  clear: both;
+}
+/* line 27, ../../../components/sass/modules/_welcome.scss */
+#welcome article .gallery img {
+  -moz-border-radius: 20%;
+  -webkit-border-radius: 20%;
+  border-radius: 20%;
+  display: none;
+}
+@media (min-width: 650px) {
+  /* line 27, ../../../components/sass/modules/_welcome.scss */
+  #welcome article .gallery img {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    display: inline;
+  }
+  /* line 66, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  #welcome article .gallery img:nth-child(4n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+  }
+  /* line 66, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  #welcome article .gallery img:nth-child(4n + 2) {
+    margin-left: 25%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  #welcome article .gallery img:nth-child(4n + 3) {
+    margin-left: 50%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  #welcome article .gallery img:nth-child(4n + 4) {
+    margin-left: 75%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 34, ../../../components/sass/modules/_welcome.scss */
+  #welcome article .gallery img.hidesm {
+    display: none;
+  }
+}
+@media (min-width: 960px) {
+  /* line 27, ../../../components/sass/modules/_welcome.scss */
+  #welcome article .gallery img {
+    display: inline;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 20%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  /* line 66, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  #welcome article .gallery img:nth-child(5n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+  }
+  /* line 66, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  #welcome article .gallery img:nth-child(5n + 2) {
+    margin-left: 20%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  #welcome article .gallery img:nth-child(5n + 3) {
+    margin-left: 40%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  #welcome article .gallery img:nth-child(5n + 4) {
+    margin-left: 60%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  #welcome article .gallery img:nth-child(5n + 5) {
+    margin-left: 80%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 40, ../../../components/sass/modules/_welcome.scss */
+  #welcome article .gallery img.hidesm {
+    display: inline;
+  }
+}
+
+/* line 1, ../../../components/sass/modules/_events.scss */
+#events {
+  padding: 0;
+  position: relative;
+}
+/* line 24, ../../../components/sass/_mixins.scss */
+#events:before, #events:after {
+  content: "";
+  display: table;
+}
+/* line 29, ../../../components/sass/_mixins.scss */
+#events:after {
+  clear: both;
+}
+/* line 6, ../../../components/sass/modules/_events.scss */
+#events .event {
+  padding-top: 600px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+#events .event:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 650px) {
+  /* line 6, ../../../components/sass/modules/_events.scss */
+  #events .event {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+  }
+}
+/* line 13, ../../../components/sass/modules/_events.scss */
+#events .event .content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  color: #FFFFFF;
+  font-weight: 200;
+  line-height: 130%;
+}
+/* line 22, ../../../components/sass/modules/_events.scss */
+#events .event .content h2 {
+  color: #FFFFFF;
+  line-height: 1em;
+}
+@media (min-width: 650px) {
+  /* line 22, ../../../components/sass/modules/_events.scss */
+  #events .event .content h2 {
+    font-size: 2em;
+    padding-bottom: 10px;
+  }
+}
+/* line 31, ../../../components/sass/modules/_events.scss */
+#events .event .content p {
+  padding: 5px 0;
+}
+/* line 37, ../../../components/sass/modules/_events.scss */
+#events #weddings {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/events_wedding.jpg");
+  background-repeat: no-repeat;
+  background-position: 40% top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 41, ../../../components/sass/modules/_events.scss */
+#events #businessmeetings {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/events_conference.jpg");
+  background-repeat: no-repeat;
+  background-position: 65% top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@media (min-width: 650px) {
+  /* line 42, ../../../components/sass/modules/_events.scss */
+  #events #businessmeetings h2 {
+    font-size: 3em;
+  }
+}
+
+/* line 55, ../../../components/sass/modules/_events.scss */
+.event {
+  position: relative;
+}
+
+/* line 1, ../../../components/sass/modules/_dining.scss */
+#dining {
+  background: #FFFFFF;
+}
+/* line 4, ../../../components/sass/modules/_dining.scss */
+#dining h1, #dining h2 {
+  color: #DF4848;
+  padding: 10px 0;
+}
+/* line 9, ../../../components/sass/modules/_dining.scss */
+#dining img {
+  width: 100%;
+  margin: 0 auto;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 15, ../../../components/sass/modules/_dining.scss */
+#dining #roomservice {
+  margin-top: 20px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZlZmFmMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-linear-gradient(top, #ffffff, #fefaf0);
+  background-image: -webkit-linear-gradient(top, #ffffff, #fefaf0);
+  background-image: linear-gradient(to bottom, #ffffff, #fefaf0);
+  padding-left: 9.16667%;
+  padding-right: 9.16667%;
+  text-align: center;
+  border-top: 1px solid #DF4848;
+  border-bottom: 1px solid #DF4848;
+}
+@media (min-width: 650px) {
+  /* line 27, ../../../components/sass/modules/_dining.scss */
+  #dining #areadining {
+    margin-bottom: 30px;
+  }
+  /* line 29, ../../../components/sass/modules/_dining.scss */
+  #dining #areadining h1 {
+    font-weight: 200;
+    font-size: 2.5em;
+  }
+  /* line 33, ../../../components/sass/modules/_dining.scss */
+  #dining #areadining p {
+    font-size: 1.5em;
+    line-height: 140%;
+  }
+  /* line 39, ../../../components/sass/modules/_dining.scss */
+  #dining section {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33.33333%;
+    float: left;
+    padding-left: 0.83333%;
+    padding-right: 0.83333%;
+  }
+  /* line 42, ../../../components/sass/modules/_dining.scss */
+  #dining section h2 {
+    font-size: 1.2em;
+    line-height: 120%;
+    color: #CD0069;
+  }
+  /* line 48, ../../../components/sass/modules/_dining.scss */
+  #dining section p {
+    padding-top: 10px;
+    font-size: 1em;
+    line-height: 130%;
+  }
+}
+
+/* line 1, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNhM2Y5MCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQ1YjI5ZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -moz-linear-gradient(top, #3a3f90, #45b29d);
+  background-image: -webkit-linear-gradient(top, #3a3f90, #45b29d);
+  background-image: linear-gradient(to bottom, #3a3f90, #45b29d);
+  color: #FFFFFF;
+}
+/* line 6, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo h1, #hotelinfo h2, #hotelinfo h3, #hotelinfo h4, #hotelinfo h5, #hotelinfo h6 {
+  color: #FFFFFF;
+}
+/* line 11, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo .heading h1 {
+  font-size: 3em;
+  font-weight: 200;
+}
+@media (min-width: 650px) {
+  /* line 18, ../../../components/sass/modules/_hotelinfo.scss */
+  #hotelinfo #usefulinfo section {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 33.33333%;
+    float: left;
+    padding-left: 3.33333%;
+    padding-right: 3.33333%;
+  }
+}
+@media (min-width: 450px) and (max-width: 650px) {
+  /* line 24, ../../../components/sass/modules/_hotelinfo.scss */
+  #hotelinfo #usefulinfo section.checklist {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+/* line 29, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section h2 {
+  color: #b5b7e1;
+  font-size: 1.3em;
+  line-height: 110%;
+  padding: 10px 0;
+}
+/* line 36, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section p {
+  font-size: 1em;
+  line-height: 130%;
+}
+/* line 42, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section ul li {
+  list-style: square;
+  margin-left: 10%;
+  line-height: 115%;
+  margin-bottom: 5px;
+}
+/* line 52, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section#arrivalinfo ul {
+  margin: 0;
+}
+/* line 55, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section#arrivalinfo ul li {
+  list-style: none;
+  border-top: 1px solid #FFFFFF;
+  padding: 15px 0;
+  margin-left: 0;
+}
+/* line 61, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section#arrivalinfo ul li strong {
+  color: #EFC94C;
+}
+/* line 65, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #usefulinfo section#arrivalinfo ul li:first-child {
+  border-top: none;
+}
+/* line 74, ../../../components/sass/modules/_hotelinfo.scss */
+#hotelinfo #greenprogram {
+  background-color: rgba(26, 68, 60, 0.5);
+  margin-top: 20px;
+  border: 1px solid #FFFFFF;
+  padding: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+@media (min-width: 1200px) {
+  /* line 74, ../../../components/sass/modules/_hotelinfo.scss */
+  #hotelinfo #greenprogram {
+    background-image: url("../images/misc/greenplanet.png");
+    background-size: 400px;
+    background-repeat: no-repeat;
+    background-position: 120% center;
+    padding-right: 300px;
+  }
+}
+
+/* line 3, ../../../components/sass/modules/_rooms.scss */
+#rooms header {
+  margin-bottom: 20px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+#rooms header:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 960px) {
+  /* line 3, ../../../components/sass/modules/_rooms.scss */
+  #rooms header {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 9.16667%;
+    padding-right: 9.16667%;
+  }
+  /* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  #rooms header:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+/* line 12, ../../../components/sass/modules/_rooms.scss */
+#rooms .room {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 9.16667%;
+  padding-right: 9.16667%;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+#rooms .room:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 650px) {
+  /* line 12, ../../../components/sass/modules/_rooms.scss */
+  #rooms .room {
+    padding-left: 59.16667%;
+    padding-right: 9.16667%;
+  }
+}
+/* line 23, ../../../components/sass/modules/_rooms.scss */
+#rooms .room .content {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  margin: 200px 0;
+  position: relative;
+}
+/* line 29, ../../../components/sass/modules/_rooms.scss */
+#rooms .room .content h1 {
+  color: #DF4848;
+}
+/* line 37, ../../../components/sass/modules/_rooms.scss */
+#rooms #piccadilly {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/rooms_piccadilly.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 41, ../../../components/sass/modules/_rooms.scss */
+#rooms #cambridge {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/rooms_cambridge.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 45, ../../../components/sass/modules/_rooms.scss */
+#rooms #westminster {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/rooms_westminster.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 49, ../../../components/sass/modules/_rooms.scss */
+#rooms #oxford {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/rooms_oxford.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 53, ../../../components/sass/modules/_rooms.scss */
+#rooms #victoria {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/rooms_victoria.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* line 57, ../../../components/sass/modules/_rooms.scss */
+#rooms #manchester {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/rooms_manchester.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 1, ../../../components/sass/modules/attractions.scss */
+#attractions {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/attractions.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+/* line 24, ../../../components/sass/_mixins.scss */
+#attractions:before, #attractions:after {
+  content: "";
+  display: table;
+}
+/* line 29, ../../../components/sass/_mixins.scss */
+#attractions:after {
+  clear: both;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+#attractions:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 10, ../../../components/sass/modules/attractions.scss */
+#attractions article {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  margin: 200px 0;
+  background: rgba(255, 255, 255, 0.8);
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+#attractions article:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 960px) {
+  /* line 10, ../../../components/sass/modules/attractions.scss */
+  #attractions article {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  #attractions article:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+/* line 1, ../../../components/sass/modules/_footer.scss */
+footer {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #333333;
+  padding: 30px 0;
+}
+/* line 12, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+footer:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 5, ../../../components/sass/modules/_footer.scss */
+footer #socialmedia {
+  text-align: center;
+}
+/* line 7, ../../../components/sass/modules/_footer.scss */
+footer #socialmedia ul {
+  list-style: none;
+}
+/* line 9, ../../../components/sass/modules/_footer.scss */
+footer #socialmedia ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+/* line 12, ../../../components/sass/modules/_footer.scss */
+footer #socialmedia ul li img {
+  width: 30px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=style.css.map */
