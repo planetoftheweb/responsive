@@ -1,0 +1,81 @@
+header #nav {
+  @include background-image(linear-gradient(top, lighten($navBackground, 10), $navBackground));
+  width: 100%;
+  z-index: 100;
+  position: relative;
+  bottom: 0;
+
+  .navbar {
+    @include container;
+
+    .brand {
+      @include span(4);
+      font-weight: $bold;
+      font-family: $headFont;
+      text-align: center;
+      text-transform: uppercase;
+      background: $navBrandBg;
+      a {
+        color: $navForeground;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        padding: 10px;
+        font-size: 1.5em;
+        @include breakpoint( max-width $small ) {
+          font-size: 1.2em;
+          span  { display: none; }
+        } //breakpoint
+      } //a
+    } //brand
+
+    ul {
+        @include span(8 at 4 of 12);
+        li {
+          float: left;
+          a {
+              color: $navForeground;
+              font: $mainFont;
+              font-size: 1em;
+              padding: 10px 10px 10px 45px;
+              display: inline-block;
+              background-size: 35px;
+              background-repeat: no-repeat;
+              background-position: 2px;
+              text-decoration: none;
+
+              &.info { background-image: url('../images/icons/info.png'); }
+              &.rooms { background-image: url('../images/icons/rooms.png'); }
+              &.dining { background-image: url('../images/icons/dining.png'); }
+              &.events { background-image: url('../images/icons/events.png'); }
+              &.attractions { background-image: url('../images/icons/attractions.png'); }
+
+              &:hover {
+                background-color: $navHover;
+                color: $blue;
+              } //hover
+
+              @include breakpoint(0 $small) {
+                padding: 10px 18px;
+                &::after {
+                  content: '\0000a0';
+                  display: block;
+                } //after
+                span  {
+                  display: none;
+                } //span
+              }
+
+              @include breakpoint($small $medium) {
+                padding-left: 10px;
+                &.icon { background-image: none; }
+              } // breakpoint
+          } //a
+          a.active {
+              background-color: $red;
+              color: $light;
+          } //a.active
+        } // li
+    } // ul
+  }
+} //nav
