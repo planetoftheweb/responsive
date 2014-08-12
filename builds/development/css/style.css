@@ -109,4 +109,13 @@ body {
   padding: 20px 0;
 }
 
+/* line 2, ../../../components/sass/modules/_intro.scss */
+header .fullheight {
+  background: url("../images/hotel/splash_hotelphoto.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
