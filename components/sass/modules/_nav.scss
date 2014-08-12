@@ -20,6 +20,11 @@ header #nav {
         display: inline-block;
         padding: 10px;
         font-size: 1.5em;
+
+        @include breakpoint(max-width $small) {
+          font-size: 1.2em;
+          span {display: none;}
+        }
       } //a
     } //brand
 
@@ -50,6 +55,21 @@ header #nav {
             background-color: $navHover;
             color: $blue;
           } //hover
+
+          @include breakpoint(0 $small) {
+            padding: 10px 18px;
+            &::after {
+              content: '\000a0';
+              display: block;
+            }
+            span {display: none;
+            } //span
+          } //breakpoint
+
+          @include breakpoint($small $medium) {
+            padding-left: 10px;
+            &.icon { background-image: none; }
+          } //breakpoint
         } //a
       } //li
     } //ul

@@ -209,7 +209,17 @@ header #nav .navbar .brand a {
   padding: 10px;
   font-size: 1.5em;
 }
-/* line 26, ../../../components/sass/modules/_nav.scss */
+@media (max-width: 650px) {
+  /* line 16, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar .brand a {
+    font-size: 1.2em;
+  }
+  /* line 26, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar .brand a span {
+    display: none;
+  }
+}
+/* line 31, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -219,11 +229,11 @@ header #nav .navbar ul {
   padding-left: 0.83333%;
   padding-right: 0.83333%;
 }
-/* line 28, ../../../components/sass/modules/_nav.scss */
+/* line 33, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li {
   float: left;
 }
-/* line 30, ../../../components/sass/modules/_nav.scss */
+/* line 35, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a {
   color: #FFFFFF;
   font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -235,30 +245,55 @@ header #nav .navbar ul li a {
   background-repeat: no-repeat;
   background-position: 2px;
 }
-/* line 43, ../../../components/sass/modules/_nav.scss */
+/* line 48, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.info {
   background-image: url("../images/icons/info.png");
 }
-/* line 44, ../../../components/sass/modules/_nav.scss */
+/* line 49, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.rooms {
   background-image: url("../images/icons/rooms.png");
 }
-/* line 45, ../../../components/sass/modules/_nav.scss */
+/* line 50, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.dining {
   background-image: url("../images/icons/dining.png");
 }
-/* line 46, ../../../components/sass/modules/_nav.scss */
+/* line 51, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.events {
   background-image: url("../images/icons/events.png");
 }
-/* line 47, ../../../components/sass/modules/_nav.scss */
+/* line 52, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.attractions {
   background-image: url("../images/icons/attractions.png");
 }
-/* line 49, ../../../components/sass/modules/_nav.scss */
+/* line 54, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a:hover {
   background-color: #EFC94C;
   color: #063642;
+}
+@media (min-width: 0) and (max-width: 650px) {
+  /* line 35, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar ul li a {
+    padding: 10px 18px;
+  }
+  /* line 61, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar ul li a::after {
+    content: '\000a0';
+    display: block;
+  }
+  /* line 65, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar ul li a span {
+    display: none;
+  }
+}
+@media (min-width: 650px) and (max-width: 960px) {
+  /* line 35, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar ul li a {
+    padding-left: 10px;
+  }
+  /* line 71, ../../../components/sass/modules/_nav.scss */
+  header #nav .navbar ul li a.icon {
+    background-image: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
