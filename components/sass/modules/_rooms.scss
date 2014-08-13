@@ -12,6 +12,10 @@
     @include container(100%);
     @include pad(1,1);
 
+    @include display-flex();
+    @include align-items(center);
+    @include justify-content(center);
+
     @include breakpoint($small) {
       @include pad(7,1);
     } //small
