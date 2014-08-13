@@ -46,5 +46,41 @@
         } //li
       } //ul
     } //section
+
+    section#arrivalinfo {
+      ul {
+        margin: 0;
+        li {
+          list-style: none;
+          border-top: 1px solid $light;
+          padding: 15px 0;
+          margin-left: 0;
+          strong {
+            color: $yellow;
+          } //strong
+
+          &:first-child {
+            border-top: none;
+          } //first child
+        } //li
+      } //ul
+    } //section#arrivalinfo
   } //useful info
+
+  #greenprogram {
+    background-color: rgba(darken($green, 30), .5);
+    margin-top: 20px;
+
+
+    @include breakpoint($wide) {
+      @include background-image(url('../images/misc/greenplanet.png'));
+      background-size: 400px;
+      background-repeat: no-repeat;
+      background-position: 120% center;
+      padding-right: 300px;
+    } //breakpoint
+    border: 1px solid $light;
+    padding: 20px;
+    @include border-radius(20px);
+  } //greenprogram
 } //hotelinfo

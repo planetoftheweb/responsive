@@ -7,4 +7,19 @@ body {
 .scene {
   position: relative;
   padding: 20px 0;
-}
+
+  article {
+    @include container(95%);
+  } //article
+
+  @include breakpoint($wide) {
+    padding: 40px 0;
+  } //breakpoint
+
+  @include breakpoint($medium) {
+    article {
+      @include container;
+    } //article
+  } // breakpoint
+} //scene
+
