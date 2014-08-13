@@ -1,0 +1,50 @@
+#hotelinfo {
+  @include background-image(linear-gradient(top, darken($purple, 20), $green));
+  color: $light;
+
+  #{headings()} {
+    color: $light;
+  }
+
+  .heading {
+    h1 {
+      font-size: 3em;
+      font-weight: $thin;
+    }
+  }
+
+  #usefulinfo {
+    @include clearfix;
+    section {
+      @include breakpoint($small) {
+        @include span(1 of 3);
+      } //breakpoint
+      @include breakpoint(450px $small) {
+        &.checklist {
+          @include span(1 of 2)
+        } //checklist
+      } //breakpoint
+
+      h2 {
+        color: lighten($purple,20);
+        font-size: 1.3em;
+        line-height: 110%;
+        padding: 10px 0;
+      }//h2
+
+      p {
+        font-size: 1em;
+        line-height: 130%;
+      } //p
+
+      ul {
+        li {
+          list-style: square;
+          margin-left: 10%;
+          line-height: 115%;
+          margin-bottom: 5px;
+        } //li
+      } //ul
+    } //section
+  } //useful info
+} //hotelinfo
