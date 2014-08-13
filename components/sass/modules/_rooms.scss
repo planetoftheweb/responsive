@@ -15,12 +15,12 @@
     @include breakpoint($small) {
       @include pad(7,1);
     } //small
+    padding: 200px 0;
 
     .content {
       @include border-radius(10px);
       background: rgba($light, .8);
       padding: 20px;
-      margin: 200px 0;
 
       h1 {
         color: $red;
