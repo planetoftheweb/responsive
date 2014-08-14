@@ -202,6 +202,7 @@ header #nav {
   background-image: -webkit-linear-gradient(top, #0a5c71, #063642);
   background-image: linear-gradient(to bottom, #0a5c71, #063642);
   width: 100%;
+  z-index: 100;
 }
 /* line 22, ../../../components/sass/_mixins.scss */
 header #nav:before, header #nav:after {
@@ -212,7 +213,7 @@ header #nav:before, header #nav:after {
 header #nav:after {
   clear: both;
 }
-/* line 6, ../../../components/sass/modules/_nav.scss */
+/* line 7, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar {
   max-width: 60em;
   margin-left: auto;
@@ -224,7 +225,7 @@ header #nav .navbar:after {
   display: block;
   clear: both;
 }
-/* line 8, ../../../components/sass/modules/_nav.scss */
+/* line 9, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar .brand {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -240,7 +241,7 @@ header #nav .navbar .brand {
   text-transform: uppercase;
   background: #DF4848;
 }
-/* line 16, ../../../components/sass/modules/_nav.scss */
+/* line 17, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar .brand a {
   color: #FFFFFF;
   text-decoration: none;
@@ -250,16 +251,16 @@ header #nav .navbar .brand a {
   font-size: 1.5em;
 }
 @media (max-width: 650px) {
-  /* line 16, ../../../components/sass/modules/_nav.scss */
+  /* line 17, ../../../components/sass/modules/_nav.scss */
   header #nav .navbar .brand a {
     font-size: 1.2em;
   }
-  /* line 26, ../../../components/sass/modules/_nav.scss */
+  /* line 27, ../../../components/sass/modules/_nav.scss */
   header #nav .navbar .brand a span {
     display: none;
   }
 }
-/* line 31, ../../../components/sass/modules/_nav.scss */
+/* line 32, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -269,11 +270,11 @@ header #nav .navbar ul {
   padding-left: 0.83333%;
   padding-right: 0.83333%;
 }
-/* line 33, ../../../components/sass/modules/_nav.scss */
+/* line 34, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li {
   float: left;
 }
-/* line 35, ../../../components/sass/modules/_nav.scss */
+/* line 36, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a {
   color: #FFFFFF;
   font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -285,52 +286,52 @@ header #nav .navbar ul li a {
   background-repeat: no-repeat;
   background-position: 2px;
 }
-/* line 48, ../../../components/sass/modules/_nav.scss */
+/* line 49, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.info {
   background-image: url("../images/icons/info.png");
 }
-/* line 49, ../../../components/sass/modules/_nav.scss */
+/* line 50, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.rooms {
   background-image: url("../images/icons/rooms.png");
 }
-/* line 50, ../../../components/sass/modules/_nav.scss */
+/* line 51, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.dining {
   background-image: url("../images/icons/dining.png");
 }
-/* line 51, ../../../components/sass/modules/_nav.scss */
+/* line 52, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.events {
   background-image: url("../images/icons/events.png");
 }
-/* line 52, ../../../components/sass/modules/_nav.scss */
+/* line 53, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a.attractions {
   background-image: url("../images/icons/attractions.png");
 }
-/* line 54, ../../../components/sass/modules/_nav.scss */
+/* line 55, ../../../components/sass/modules/_nav.scss */
 header #nav .navbar ul li a:hover {
   background-color: #EFC94C;
   color: #063642;
 }
 @media (min-width: 0) and (max-width: 650px) {
-  /* line 35, ../../../components/sass/modules/_nav.scss */
+  /* line 36, ../../../components/sass/modules/_nav.scss */
   header #nav .navbar ul li a {
     padding: 10px 18px;
   }
-  /* line 61, ../../../components/sass/modules/_nav.scss */
+  /* line 62, ../../../components/sass/modules/_nav.scss */
   header #nav .navbar ul li a::after {
     content: '\000a0';
     display: block;
   }
-  /* line 65, ../../../components/sass/modules/_nav.scss */
+  /* line 66, ../../../components/sass/modules/_nav.scss */
   header #nav .navbar ul li a span {
     display: none;
   }
 }
 @media (min-width: 650px) and (max-width: 960px) {
-  /* line 35, ../../../components/sass/modules/_nav.scss */
+  /* line 36, ../../../components/sass/modules/_nav.scss */
   header #nav .navbar ul li a {
     padding-left: 10px;
   }
-  /* line 71, ../../../components/sass/modules/_nav.scss */
+  /* line 72, ../../../components/sass/modules/_nav.scss */
   header #nav .navbar ul li a.icon {
     background-image: none;
   }
