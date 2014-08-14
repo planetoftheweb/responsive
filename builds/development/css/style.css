@@ -934,4 +934,39 @@ header #nav .navbar ul li a:hover {
   }
 }
 
+/* line 1, ../../../components/sass/modules/_footer.scss */
+footer {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #333333;
+  padding: 30px 0;
+}
+/* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+footer:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 5, ../../../components/sass/modules/_footer.scss */
+footer #socialmedia {
+  text-align: center;
+}
+/* line 7, ../../../components/sass/modules/_footer.scss */
+footer #socialmedia ul {
+  list-style: none;
+}
+/* line 9, ../../../components/sass/modules/_footer.scss */
+footer #socialmedia ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+/* line 12, ../../../components/sass/modules/_footer.scss */
+footer #socialmedia ul li img {
+  width: 30px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */
