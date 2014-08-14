@@ -71,6 +71,11 @@ header #nav {
             padding-left: 10px;
             &.icon { background-image: none; }
           } //breakpoint
+
+          &.active {
+            background-color: $red;
+            color: $light;
+          }
         } //a
       } //li
     } //ul
