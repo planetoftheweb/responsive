@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
-/* line 5, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -21,50 +21,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../.rvm/gems/ruby-2.1.2/gems/compass-core-1.0.0.rc.1/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 14, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
+/* line 21, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/language/susy/_box-sizing.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -114,7 +114,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 .scene article:after {
   content: " ";
   display: block;
@@ -133,7 +133,7 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
   .scene article:after {
     content: " ";
     display: block;
@@ -198,6 +198,7 @@ header .fullheight .hgroup p img {
 header #nav {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzBhNWM3MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzA2MzY0MiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #0a5c71), color-stop(100%, #063642));
   background-image: -moz-linear-gradient(top, #0a5c71, #063642);
   background-image: -webkit-linear-gradient(top, #0a5c71, #063642);
   background-image: linear-gradient(to bottom, #0a5c71, #063642);
@@ -219,7 +220,7 @@ header #nav .navbar {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 header #nav .navbar:after {
   content: " ";
   display: block;
@@ -346,6 +347,7 @@ header #nav .navbar ul li a.active {
 #welcome {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmYzk0YyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2UyN2EzZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efc94c), color-stop(100%, #e27a3f));
   background-image: -moz-linear-gradient(top, #efc94c, #e27a3f);
   background-image: -webkit-linear-gradient(top, #efc94c, #e27a3f);
   background-image: linear-gradient(to bottom, #efc94c, #e27a3f);
@@ -357,7 +359,7 @@ header #nav .navbar ul li a.active {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 #welcome article:after {
   content: " ";
   display: block;
@@ -371,7 +373,7 @@ header #nav .navbar ul li a.active {
     margin-right: auto;
     padding: 60px 0;
   }
-  /* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
   #welcome article:after {
     content: " ";
     display: block;
@@ -413,25 +415,25 @@ header #nav .navbar ul li a.active {
     padding-right: 2.5%;
     display: inline;
   }
-  /* line 66, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
   #welcome .gallery img:nth-child(4n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
   }
-  /* line 66, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
   #welcome .gallery img:nth-child(4n + 2) {
     margin-left: 25%;
     margin-right: -100%;
     clear: none;
   }
-  /* line 66, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
   #welcome .gallery img:nth-child(4n + 3) {
     margin-left: 50%;
     margin-right: -100%;
     clear: none;
   }
-  /* line 66, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
   #welcome .gallery img:nth-child(4n + 4) {
     margin-left: 75%;
     margin-right: -100%;
@@ -454,31 +456,31 @@ header #nav .navbar ul li a.active {
     padding-right: 2%;
     display: inline;
   }
-  /* line 66, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
   #welcome .gallery img:nth-child(5n + 1) {
     margin-left: 0;
     margin-right: -100%;
     clear: both;
   }
-  /* line 66, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
   #welcome .gallery img:nth-child(5n + 2) {
     margin-left: 20%;
     margin-right: -100%;
     clear: none;
   }
-  /* line 66, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
   #welcome .gallery img:nth-child(5n + 3) {
     margin-left: 40%;
     margin-right: -100%;
     clear: none;
   }
-  /* line 66, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
   #welcome .gallery img:nth-child(5n + 4) {
     margin-left: 60%;
     margin-right: -100%;
     clear: none;
   }
-  /* line 66, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/language/susy/_gallery.scss */
+  /* line 66, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/language/susy/_gallery.scss */
   #welcome .gallery img:nth-child(5n + 5) {
     margin-left: 80%;
     margin-right: -100%;
@@ -510,7 +512,7 @@ header #nav .navbar ul li a.active {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 #events .event:after {
   content: " ";
   display: block;
@@ -621,6 +623,7 @@ header #nav .navbar ul li a.active {
   margin-top: 20px;
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZlZmFmMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #fefaf0));
   background-image: -moz-linear-gradient(top, #ffffff, #fefaf0);
   background-image: -webkit-linear-gradient(top, #ffffff, #fefaf0);
   background-image: linear-gradient(to bottom, #ffffff, #fefaf0);
@@ -635,6 +638,7 @@ header #nav .navbar ul li a.active {
 #hotelinfo {
   background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNhM2Y5MCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzQ1YjI5ZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
   background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3a3f90), color-stop(100%, #45b29d));
   background-image: -moz-linear-gradient(top, #3a3f90, #45b29d);
   background-image: -webkit-linear-gradient(top, #3a3f90, #45b29d);
   background-image: linear-gradient(to bottom, #3a3f90, #45b29d);
@@ -748,7 +752,7 @@ header #nav .navbar ul li a.active {
   margin-left: auto;
   margin-right: auto;
 }
-/* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 #rooms header:after {
   content: " ";
   display: block;
@@ -763,7 +767,7 @@ header #nav .navbar ul li a.active {
     padding-left: 9.16667%;
     padding-right: 9.16667%;
   }
-  /* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
   #rooms header:after {
     content: " ";
     display: block;
@@ -785,7 +789,7 @@ header #nav .navbar ul li a.active {
   justify-content: center;
   padding: 200px 0;
 }
-/* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 #rooms .room:after {
   content: " ";
   display: block;
@@ -900,7 +904,7 @@ header #nav .navbar ul li a.active {
 #attractions:after {
   clear: both;
 }
-/* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 #attractions:after {
   content: " ";
   display: block;
@@ -919,7 +923,7 @@ header #nav .navbar ul li a.active {
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
-/* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 #attractions article:after {
   content: " ";
   display: block;
@@ -932,7 +936,7 @@ header #nav .navbar ul li a.active {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
   #attractions article:after {
     content: " ";
     display: block;
@@ -948,7 +952,7 @@ footer {
   background: #333333;
   padding: 30px 0;
 }
-/* line 12, ../../../../../.rvm/gems/ruby-2.1.2/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../.rvm/gems/ruby-2.0.0-p598/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 footer:after {
   content: " ";
   display: block;
@@ -974,5 +978,3 @@ footer #socialmedia ul li img {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-
-/*# sourceMappingURL=style.css.map */

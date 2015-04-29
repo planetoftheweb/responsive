@@ -70,6 +70,7 @@
     "jsonReturnData": false,
     "Mustache": false,
     "JpegMeta": false,
+    "require": false,
     "resemble": false,
     "ScrollMagic": false,
     "ScrollScene": false,
