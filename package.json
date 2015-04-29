@@ -10,11 +10,15 @@
   "devDependencies": {
     "gulp": "^3.8.7",
     "gulp-util": "^2.2.20",
+    "gulp-jsbeautifier": "0.0.4",
+    "gulp-jshint": "^1.9.0",
+    "gulp-w3cjs": "^0.2.1",
     "gulp-concat": "^2.3.4",
     "gulp-browserify": "^0.5.0",
     "jquery": "^2.1.1",
     "gulp-compass": "^1.2.0",
     "gulp-connect": "^2.0.6",
+    "jshint-stylish": "^1.0.0",
     "gulp-if": "^1.2.4",
     "gulp-uglify": "^0.3.1",
     "gulp-minify-html": "^0.1.4"
