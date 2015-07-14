@@ -65,16 +65,8 @@ $(function() {
 
 
   //set up ScrollMagic
-  var controller = new ScrollMagic({
-    globalSceneOptions: {
-      triggerHook: 'onLeave'
-    }
-  });
 
   //pin the navigation
-  var pin = new ScrollScene({
-    triggerElement: '#nav',
-  }).setPin('#nav').addTo(controller);
 
 
   if(!isTouch) {
@@ -171,14 +163,5 @@ $(function() {
 
 
   //atractions animation
-  var attractionstween = TweenMax.staggerFromTo('#attractions article', 1, { opacity: 0, scale: 0 },
-      {delay: 1, opacity: 1, scale: 1,
-        ease: Back.easeOut});
 
-
-  var scene = new ScrollScene({
-    triggerElement: '#attractions',
-    offset: -topoffset
-  }).setTween(attractionstween)
-    .addTo(controller);
 }); //on load
