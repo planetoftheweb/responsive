@@ -11,7 +11,7 @@ Breakpoint, which makes writing media queries in Sass a snap
 
 But this course isn't just about the tools. It's a realistic project that epitomizes many of the design challenges website developers face in the real world. Start watching now and learn how to use HTML, jQuery, and CSS to build your own dynamic, deeply responsive designs.
 
-## Topics include:
+## Topics Include:
 - Analyzing the project before you begin
 - Creating basic styles
 - Building your own Sass mixins
