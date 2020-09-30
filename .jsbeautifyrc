@@ -3,6 +3,7 @@
   // source file you're prettifying (or any directory above if it doesn't exist,
   // or in your home folder if everything else fails) and uses those options
   // along the default ones.
+  // css looks nice . Good Job Bruh
 
   // Details: https://github.com/victorporof/Sublime-HTMLPrettify#using-your-own-jsbeautifyrc-options
   // Documentation: https://github.com/einars/js-beautify/
