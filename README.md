@@ -3,7 +3,7 @@
 This is the repository for my course, [Building a Responsive Single-Page Design](http://www.lynda.com/CSS-tutorials/Building-Responsive-Single-Page-Design/182174-2.html). The full course is available at [lynda.com](http://lynda.com).
 
 ## Course Description
-Learn how to build dynamic, responsive single-page designs with HTML, JavaScript, and CSS. The website featured in this course combines docking navigation, columns that adjust without cluttering your site layout or HTML markup, and animated scrolling effects that respond to user direction. Author Ray Villalobos shows you how to build it. He starts with a lean, easy-to-read template, and then explains how to add the features that make single-page designs so great, with these four frameworks:
+Learn how to build dynamic, easy on the eye, responsive single-page designs with HTML, JavaScript, and CSS. The website featured in this course combines docking navigation, columns that adjust without cluttering your site layout or HTML markup, and animated scrolling effects that respond to user direction. Author Ray Villalobos shows you how to build it. He starts with a lean, easy-to-read template, and then explains how to add the features that make single-page designs so great, with these four frameworks:
 Compass, whose Sass mixins help you leverage CSS3 features like Flexbox
 Susy 2, the framework that "subtracts" the math from responsive grid design
 ScrollMagic, for adding "magical" scroll effects
