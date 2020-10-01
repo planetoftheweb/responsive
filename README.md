@@ -21,7 +21,7 @@ But this course isn't just about the tools. It's a realistic project that epitom
 - Creating tween animations
 - Controlling scenes with scrolling
 
-## Instructions
+## Instructions :
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage. Or you can simply add `/tree/BRANCH_NAME` to the URL to go to the branch you want to peek at.
 
 1. Make sure you have these installed
